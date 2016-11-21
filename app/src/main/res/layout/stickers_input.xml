@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	android:id="@+id/keyboard"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_alignParentBottom="true"
+	android:orientation="vertical"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<Button
+		android:id="@+id/top_button"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/sticker_recycler_view_height"
+		android:background="#FF0000"
+		android:text="TOP"/>
+	<Button
+		android:id="@+id/bottom_button"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/sticker_tab_bar_height"
+		android:background="#FFCCCC"
+		android:text="BOTTOM"/>
+
+</LinearLayout>
